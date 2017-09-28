@@ -1,9 +1,21 @@
 Package: worktime
-Title: What the Package Does (one line, title case)
+Title: Import and Visualize Hours Worked on Tasks
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Luke", "Johnston", email = "lwjohnst@gmail.com", role = c("aut", "cre"))
+Description: Imports files that track minute-by-minute clocking of work time 
+    (currently only org-mode files) and provides some plot functions to visualize
+    various aspects of working or time tracked tasks.
 Depends: R (>= 3.4.1)
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
+Imports: dplyr,
+    tidyr,
+    lubridate,
+    readr,
+    magrittr,
+    utils
