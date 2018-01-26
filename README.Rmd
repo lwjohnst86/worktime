@@ -14,14 +14,16 @@ knitr::opts_chunk$set(
 
 # worktime
 
-The goal of worktime is to ...
+The goal of worktime is to visualize time spent working. Can also import
+clocking data from `.org` files.
 
 # Installation
 
+```{r, eval=FALSE}
+# install.packages("devtools")
+devtools::install_github("lwjohnst86/worktime")
+```
+
 # Usage
 
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
-## basic example code
-```
+In progress.
