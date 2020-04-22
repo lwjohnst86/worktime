@@ -15,3 +15,8 @@ Imported org file
 \description{
 Import clocking lines from .org files.
 }
+\examples{
+
+import_org_clock("tests/testthat/clocking.org")
+
+}
