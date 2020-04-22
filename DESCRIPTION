@@ -13,12 +13,15 @@ Suggests: knitr,
     rmarkdown,
     testthat
 VignetteBuilder: knitr
-RoxygenNote: 6.0.1
-Imports: dplyr,
+RoxygenNote: 7.1.0
+Imports: 
+    dplyr,
     tidyr,
     lubridate,
     readr,
     magrittr,
-    utils
+    utils,
+    rlang,
+    rex
 URL: https://github.com/lwjohnst86/worktime
 BugReports: https://github.com/lwjohnst86/worktime/issues
